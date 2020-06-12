@@ -225,7 +225,7 @@ function love.draw()
     elseif gameState == 'play' then
         love.graphics.setColor(0, 0, 0, 1)
     end
-    if gameState == 'serve' then
+    if gameState == 'play' then
         love.graphics.setFont(scoreFont)
         love.graphics.print(tostring(player1Score), VIRTUAL_WIDTH / 2 - 50, 
             VIRTUAL_HEIGHT / 3)
